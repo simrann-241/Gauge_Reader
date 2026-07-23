@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$t(9wgc(z*r^g#40w-n4*1^l22&wnb46u7g(f$l))kx$8^b)@w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "gauge-reader-2.onrender.com",
