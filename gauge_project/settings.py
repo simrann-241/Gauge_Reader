@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-$t(9wgc(z*r^g#40w-n4*1^l22&wnb46u7g(f$l))kx$8^b)@w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "gauge-reader-2.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
