@@ -10,7 +10,12 @@ from ultralytics import YOLO
 import logging
 logger = logging.getLogger(__name__)
 
-model = YOLO("C:/Users/veena/OneDrive/Desktop/test/best.pt")
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "best.pt")
+
+model = YOLO(MODEL_PATH)
 PRESET_ANGLE = 275
 
 def calculate_angle(base, point):
